@@ -49,10 +49,8 @@ export function Header() {
                     </SheetClose>
                   ))}
                 </nav>
-                <div className="mt-auto">
-                    <Button asChild className="w-full">
-                        <a href={`mailto:${contactSection.email}`}>Contactar</a>
-                    </Button>
+               <div className="mt-auto text-center text-primary font-medium">
+                  Contactar: {contactSection.email}
                 </div>
               </div>
             </SheetContent>

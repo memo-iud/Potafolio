@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Github, Linkedin } from "lucide-react";
+import { Github, Youtube } from "lucide-react";
 import { contactSection } from "@/data/content";
 import { Button } from "@/components/ui/button";
 
@@ -19,8 +19,8 @@ export function Footer() {
             </Link>
           </Button>
           <Button variant="ghost" size="icon" asChild>
-            <Link href={contactSection.linkedin} target="_blank" aria-label="LinkedIn">
-              <Linkedin className="h-4 w-4" />
+            <Link href={contactSection.youtube} target="_blank" aria-label="YouTube">
+              <Youtube className="h-4 w-4" />
             </Link>
           </Button>
         </div>

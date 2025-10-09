@@ -1,3 +1,4 @@
+
 import {
   AndroidIcon,
   Css3Icon,
@@ -15,6 +16,8 @@ import {
   PythonIcon,
   SpringBootIcon,
   ThymeleafIcon,
+  DBeaverIcon,
+  WhatsappIcon,
 } from "@/components/icons";
 
 export const siteConfig = {
@@ -50,14 +53,14 @@ export const aboutSection = {
 };
 
 export const projectsSection = {
-  title: "Proyectos Destacados",
+  title: "Algunos de mis proyectos",
   projects: [
     {
       id: "project-1",
       title: "Blog Project",
       description: "Un sistema de blog completamente funcional desarrollado para demostrar habilidades en la creación de aplicaciones web dinámicas. Permite la creación, edición y eliminación de posts, junto con una gestión básica de usuarios.",
       technologies: ["Java", "Spring Boot", "Thymeleaf", "MySQL"],
-      githubUrl: "#",
+      githubUrl: "https://github.com/memo-iud",
       demoUrl: null,
     },
     {
@@ -65,7 +68,7 @@ export const projectsSection = {
       title: "Android Login",
       description: "Prototipo de un sistema de autenticación seguro para aplicaciones Android. Este proyecto explora los fundamentos del desarrollo móvil nativo y la gestión de sesiones de usuario de forma local.",
       technologies: ["Java", "Android SDK", "XML"],
-      githubUrl: "#",
+      githubUrl: "https://github.com/memo-iud",
       demoUrl: null,
     },
     {
@@ -73,7 +76,7 @@ export const projectsSection = {
       title: "Conectores de Bases de Datos",
       description: "Una librería de backend que implementa conectores para diversas bases de datos como PostgreSQL y MongoDB. Ideal para entender la capa de persistencia y la gestión de datos en diferentes entornos.",
       technologies: ["Python", "Psycopg2", "PyMongo"],
-      githubUrl: "#",
+      githubUrl: "https://github.com/memo-iud",
       demoUrl: null,
     },
     {
@@ -81,7 +84,7 @@ export const projectsSection = {
       title: "Retos de Programación",
       description: "Mi repositorio personal donde resuelvo desafíos de lógica y algoritmos. Es una demostración de mi capacidad para resolver problemas y mi compromiso con la mejora continua de mis habilidades de codificación.",
       technologies: ["JavaScript", "Python", "Java"],
-      githubUrl: "#",
+      githubUrl: "https://github.com/memo-iud",
       demoUrl: null,
     },
     {
@@ -89,7 +92,7 @@ export const projectsSection = {
       title: "Funciones JavaScript",
       description: "Una colección de funciones de utilidad en JavaScript puro, enfocadas en ser reutilizables y eficientes. Este proyecto muestra mi dominio de los conceptos fundamentales del lenguaje.",
       technologies: ["JavaScript (ES6+)"],
-      githubUrl: "#",
+      githubUrl: "https://github.com/memo-iud",
       demoUrl: null,
     },
   ],
@@ -123,6 +126,7 @@ export const skillsSection = {
                 { name: "MySQL", icon: MySqlIcon },
                 { name: "PostgreSQL", icon: PostgreSqlIcon },
                 { name: "MongoDB", icon: MongoDbIcon },
+                { name: "DBeaver", icon: DBeaverIcon },
             ],
         },
         {
@@ -131,6 +135,11 @@ export const skillsSection = {
                 { name: "Git", icon: GitIcon },
                 { name: "GitHub", icon: GitHubIcon },
                 { name: "Docker (Básico)", icon: DockerIcon },
+            ],
+        },
+        {
+            title: "Metodologías y Herramientas Ágiles",
+            skills: [
                 { name: "Jira", icon: JiraIcon },
             ],
         },
@@ -139,9 +148,11 @@ export const skillsSection = {
 
 export const contactSection = {
     title: "¿Hablamos?",
-    paragraph: "Estoy buscando oportunidades para colaborar en proyectos innovadores y seguir creciendo como desarrollador. Si tienes una idea, un proyecto o una vacante, ¡me encantaría saber de ti!",
-    email: "tu-correo-profesional@email.com",
-    linkedin: "https://linkedin.com/in/tu-usuario",
-    github: "https://github.com/tu-usuario",
-    location: "Medellín, Antioquia, Colombia",
+    paragraph: "Estoy buscando oportunidades para colaborar en proyectos innovadores y seguir creciendo como desarrollador. Si tienes una idea, un proyecto, ¡me encantaría saber de ti!",
+    email: "gl4552458@gmail.com",
+    phone: "321 883 73 00",
+    whatsappUrl: "https://wa.me/573218837300",
+    youtube: "https://www.youtube.com/@programandoconMemo",
+    github: "https://github.com/memo-iud",
+    location: "Antioquia, Bello, Colombia",
 };

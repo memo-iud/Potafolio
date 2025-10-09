@@ -8,13 +8,18 @@ export function SkillsSection() {
         <h2 className="mb-10 text-center font-headline text-3xl font-bold tracking-tight text-primary sm:text-4xl">
           {skillsSection.title}
         </h2>
-        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {skillsSection.categories.map((category) => (
-            <SkillCard
+            <div
               key={category.title}
-              title={category.title}
-              skills={category.skills}
-            />
+              className={
+                category.skills.length === 1
+                  ? "sm:col-span-2 lg:col-span-1 lg:col-start-2"
+                  : ""
+              }
+            >
+              <SkillCard title={category.title} skills={category.skills} />
+            </div>
           ))}
         </div>
       </div>

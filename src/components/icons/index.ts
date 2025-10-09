@@ -1,3 +1,4 @@
+
 export * from './android';
 export * from './css3';
 export * from './docker';
@@ -14,3 +15,5 @@ export * from './postgresql';
 export * from './python';
 export * from './spring-boot';
 export * from './thymeleaf';
+export * from './dbeaver';
+export * from './whatsapp';

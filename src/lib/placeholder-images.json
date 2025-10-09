@@ -2,33 +2,33 @@
   "placeholderImages": [
     {
       "id": "project-1",
-      "description": "A close-up of code on a screen, representing a blog project.",
+      "description": "Close-up of a laptop screen showing Java code for a web application.",
       "imageUrl": "https://picsum.photos/seed/101/600/400",
-      "imageHint": "code blog"
+      "imageHint": "Java code"
     },
     {
       "id": "project-2",
-      "description": "A smartphone showing a login screen, representing an Android authentication project.",
+      "description": "An Android phone displaying a user login interface.",
       "imageUrl": "https://picsum.photos/seed/102/600/400",
-      "imageHint": "mobile security"
+      "imageHint": "Android app"
     },
     {
       "id": "project-3",
-      "description": "Abstract visualization of data connections, representing database connectors.",
+      "description": "Diagram showing connections between different types of databases like Postgres and MongoDB.",
       "imageUrl": "https://picsum.photos/seed/103/600/400",
-      "imageHint": "database connection"
+      "imageHint": "database schema"
     },
     {
       "id": "project-4",
-      "description": "A complex algorithm or flowchart on a whiteboard, representing programming challenges.",
+      "description": "A screen with complex algorithmic code, representing a coding challenge.",
       "imageUrl": "https://picsum.photos/seed/104/600/400",
-      "imageHint": "algorithm challenge"
+      "imageHint": "programming algorithm"
     },
     {
       "id": "project-5",
-      "description": "Snippet of JavaScript code highlighting function syntax.",
+      "description": "Clean and elegant JavaScript code on a dark-themed editor.",
       "imageUrl": "https://picsum.photos/seed/105/600/400",
-      "imageHint": "javascript code"
+      "imageHint": "JavaScript code"
     }
   ]
 }
